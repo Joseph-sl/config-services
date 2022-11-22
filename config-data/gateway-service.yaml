@@ -25,3 +25,7 @@ spring:
           uri: lb://JUSTIFICATIVOS-SERVICE
           predicates:
             - Path=/justificativos/**
+        - id: AUTORIZACIONES-SERVICE
+          uri: lb://AUTORIZACIONES-SERVICE
+          predicates:
+            - Path=/autorizaciones/**
