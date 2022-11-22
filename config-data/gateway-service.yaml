@@ -17,11 +17,11 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: asistencia-service
-          uri: lb://asistencia-service
+        - id: ASISTENCIA-SERVICE
+          uri: lb://ASISTENCIA-SERVICE
           predicates:
             - Path=/asistencia/**
-        - id: justificativos-service
-          uri: lb://justificativos-service
+        - id: JUSTIFICATIVOS-SERVICE
+          uri: lb://JUSTIFICATIVOS-SERVICE
           predicates:
             - Path=/justificativos/**
