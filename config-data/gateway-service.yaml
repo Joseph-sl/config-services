@@ -20,7 +20,7 @@ spring:
         - id: ASISTENCIA-SERVICE
           uri: lb://ASISTENCIA-SERVICE
           predicates:
-            - Path= /empleados/**, /asistencia/**
+            - Path= /asistencia/**, /empleados/**
         - id: JUSTIFICATIVOS-SERVICE
           uri: lb://JUSTIFICATIVOS-SERVICE
           predicates:
