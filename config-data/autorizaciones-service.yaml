@@ -10,7 +10,7 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/autorizacionesempleados
+    url: jdbc:mysql://autorizacion-db:3306/autorizacionesempleados
     username: root
     password: 1234
   jpa:
