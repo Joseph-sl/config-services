@@ -29,3 +29,7 @@ spring:
           uri: lb://AUTORIZACIONES-SERVICE
           predicates:
             - Path=/autorizaciones/**
+        - id: PLANILLA-SERVICE
+          uri: lb://PLANILLA-SERVICE
+          predicates:
+            - Path=/planilla/**
